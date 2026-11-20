@@ -1,6 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { ArrowDown, ArrowUpRight, Mail, MapPin, Code2, Layers3, Database, Terminal, Menu, X, MessageCircle } from 'lucide-react';
+import profilePhoto from '../hhb.jpeg';
 import './styles.css';
 import './project-previews.css';
 
@@ -121,7 +122,7 @@ function App() {
         <section className="section about-section" id="about">
           <div className="section-label">01 / ABOUT ME</div>
           <div className="about-grid">
-            <div className="about-profile"><img className="about-photo" src="/hhb.jpeg" alt="Paul Lukwago" /></div>
+            <div className="about-profile"><img className="about-photo" src={profilePhoto} alt="Paul Lukwago" /></div>
             <div className="about-text">
               <h2>Curious by nature.<br/><span>Developer by craft.</span></h2>
               <p className="lead">I enjoy turning ideas and real-world needs into software that people can use with confidence.</p>
